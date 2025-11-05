@@ -1,0 +1,24 @@
+{
+  "name": "dyte",
+  "version": "1.0.0",
+  "description": "vamos a ver",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo VERSION=$npm_package_version",
+    "test": "echo 'A correr testes'",
+    "build-and-test": "npm run build && npm run test",
+    "build-and-test-parallel": "npm run build & npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dyte-in"
+  },
+  "keywords": [
+    "dyte",
+    "video-sdk",
+    "video-conf",
+    "comms"
+  ],
+  "author": "roerohan (https://github.com/roerohan)",
+  "license": "ISC"
+}
